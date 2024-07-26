@@ -13,7 +13,7 @@ const Battlejudge = () => {
         setBmi(bmi.toFixed(1))
 
         if (bmi < 18.5){
-            setDescription('Underweight, eat more!')
+            setDescription('Underweight, eat pa more!')
         }
         else if (bmi >= 18.5 && bmi <= 24.9){
             setDescription('Normal, Keep it up!')
